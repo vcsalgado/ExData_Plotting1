@@ -17,7 +17,6 @@ hpc <- read.table("household_power_consumption.txt", header = TRUE, sep=";", na=
 hpc <- subset(hpc, hpc$Date == "1/2/2007" | hpc$Date == "2/2/2007")
 
 ##Reset out device
-dev.off()
 par(mfrow = c(1,1))
 
 ##Create new column for date - time

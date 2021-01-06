@@ -22,7 +22,6 @@ hpc$date_time <- paste(hpc$Date,hpc$Time, sep = " ")
 hpc$date_time <- as.POSIXct(hpc$date_time, format = "%d/%m/%Y %H:%M:%S")
 
 ##Set out device
-dev.off()
 par(mfrow = c(2,2))
 
 ##Grph Global Active Power
